@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TestNG Suite",
+            "request": "launch",
+            "mainClass": "org.testng.TestNG",
+            "args": "-d \"target/testng-result\" -testnames \"webdriver\" src/test/resources/testing.xml",
+            "vmArgs": "-Dname=value"
+        }
+    ]
+}
