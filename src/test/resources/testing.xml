@@ -2,7 +2,7 @@
 <suite name="testing">
     <test name="webdriver">
         <packages>
-            <package name="task2">
+            <package name="task3">
         </packages>
     </test>
 </suite>
