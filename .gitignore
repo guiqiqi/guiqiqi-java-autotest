@@ -25,3 +25,9 @@ chromedriver
 # Keep allure test result
 !target/allure-result/
 !target/allure-result/**
+
+# Keep report source file and images
+report/**
+!report/report.tex
+!report/report.pdf
+!report/images/**
